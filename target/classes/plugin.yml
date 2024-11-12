@@ -1,0 +1,23 @@
+name: CK_TPLimiter
+main: org.example.TPPlugin
+version: '0.1.5'
+api-version: 1.21
+commands:
+  CKTP:
+    description: Teleports the player to a predefined location once every 48 hours.
+    usage: Use /cktp to teleport.
+  CKSetCoords:
+    description: Set Coordinates to a specific Coords
+    usage: Use /cksetcoords x y z | or just /cksetcoords to set coords to current Position.
+
+  CKSetNewLimit:
+    description: Set a new time Limit for the Teleportation
+    usage: Use /cksetnewlimit <limit> to set a new Limit.
+
+  CKResetLimit:
+    description: Reset the Limit for the Teleportation
+    usage: Use /ckresetlimit <Player> to reset the Limit.
+
+  TP:
+    description: You Can Teleport every 48 hours to a specific location - Developer ChichiKugel
+    usage: Use /cktp to teleport.
